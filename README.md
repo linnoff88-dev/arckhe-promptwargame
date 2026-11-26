@@ -8,7 +8,7 @@
 
 Prompt reutilizêÂ¡vel que transforma o planejamento de qualquer build de IA num **war game**: em vez de assumir o caminho feliz de A a B, forêÂ§a a IA a quebrar o projeto em fases, cada uma com objetivo, suposiêÂ§êÂ£o otimista, suposiêÂ§êÂ£o pessimista, modos de falha provêÂ¡veis com correêÂ§êÂ£o, critêÂ©rios de saêÂ­da verificêÂ¡veis, caminho alternativo, condiêÂ§êÂ£o de parada e orêÂ§amento de tentativa ê¢â¬â alêÂ©m de uma tabela mestre de riscos (infra, API do modelo, frontend, qualidade de conversa, seguranêÂ§a, loop de aprendizado) e um loop semanal de autoavaliaêÂ§êÂ£o.
 
-ê°Å¸ââ **Guia completo (landing + passo a passo):** https://inematds.github.io/promptwargame/guia/
+ê°Å¸ââ **Guia completo (landing + passo a passo):** https://linnoff88-dev.github.io/arckhe-/guia/
 
 ## Dois modos
 
@@ -40,7 +40,7 @@ Os dois usam a mesma lêÂ³gica ê¢â¬â **aêÂ§êÂ£o ê¢â�
 4. PeêÂ§a os dois entregêÂ¡veis: o plano em Markdown e a versêÂ£o visual em HTML com diagramas.
 5. Execute fase por fase, conferindo os critêÂ©rios de saêÂ­da antes de avanêÂ§ar.
 
-Veja o passo a passo detalhado, com exemplos, no [guia publicado](https://inematds.github.io/promptwargame/guia/).
+Veja o passo a passo detalhado, com exemplos, no [guia publicado](https://linnoff88-dev.github.io/arckhe-/guia/).
 
 ## Como usar ê¢â¬â vêÂ¡rios projetos
 
