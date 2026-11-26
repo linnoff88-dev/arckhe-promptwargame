@@ -1,6 +1,6 @@
 # Prompt de War Game
 
-Planeje a construção completa de [PROJETO], mas faça isso como um **war game**. Não assuma que será possível ir do ponto A ao ponto B seguindo apenas o caminho feliz.
+Planeje a construçêo completa de [PROJETO], mas faça isso como um **war game**. Nêo assuma que será possível ir do ponto A ao ponto B seguindo apenas o caminho feliz.
 
 ## O que estamos construindo
 
@@ -8,7 +8,7 @@ Um agente de chat que fica no meu site, com abas flutuantes de ações rápidas 
 
 Ao escolher uma aba, o agente inicia um tour guiado que navega por páginas reais e subpáginas, narrando o que está acontecendo e fazendo perguntas ao visitante para avaliar se existe encaixe com o que oferecemos.
 
-Quando surgirem sinais de compra, o agente introduz naturalmente o que oferecemos, minhas credenciais e nossos [workshops/serviços], e então captura o lead.
+Quando surgirem sinais de compra, o agente introduz naturalmente o que oferecemos, minhas credenciais e nossos [workshops/serviços], e entêo captura o lead.
 
 Ele se adapta conforme a conversa evolui. Nada deve parecer genérico ou engessado.
 
@@ -16,14 +16,14 @@ O cérebro será o [Claude Haiku], chamado a partir de [Supabase Edge Functions]
 
 ## Como planejar
 
-- Divida a construção em fases. Para cada fase, entregue:
+- Divida a construçêo em fases. Para cada fase, entregue:
   - objetivo;
-  - suposição otimista;
-  - suposição pessimista;
+  - suposiçêo otimista;
+  - suposiçêo pessimista;
   - modos de falha mais prováveis, com correções;
   - critérios de saída verificáveis;
-  - caminho alternativo, caso a rota principal não funcione;
-  - condição de parada: em qual situação a execução deve ser interrompida em vez de improvisar uma saída;
+  - caminho alternativo, caso a rota principal nêo funcione;
+  - condiçêo de parada: em qual situaçêo a execuçêo deve ser interrompida em vez de improvisar uma saída;
   - orçamento de tomada ou tentativa.
 
 - Adicione uma tabela mestre com todos os cenários de falha que você conseguir prever, incluindo:
@@ -38,13 +38,13 @@ O cérebro será o [Claude Haiku], chamado a partir de [Supabase Edge Functions]
 
 - Aponte exatamente onde a API do [Claude] é diferente dos hábitos comuns de uso da [OpenAI], para que nada seja portado de forma cega.
 
-- Desenhe um loop semanal de autoavaliação que:
+- Desenhe um loop semanal de autoavaliaçêo que:
   1. analise todas as conversas em busca de prompt injection;
   2. adapte o estilo de fala do agente aos visitantes reais, dentro de limites rígidos.
 
   O agente deve melhorar com o tempo sem nunca perder o profissionalismo central.
 
-  Nenhuma mudança deve ir para produção sem uma avaliação de regressão e minha aprovação explícita.
+  Nenhuma mudança deve ir para produçêo sem uma avaliaçêo de regressêo e minha aprovaçêo explícita.
 
 ## Entregáveis
 
@@ -55,8 +55,8 @@ O cérebro será o [Claude Haiku], chamado a partir de [Supabase Edge Functions]
    - estrutura;
    - metodologia.
 
-2. Uma versão visual em HTML do mesmo plano, com diagramas gerados para:
+2. Uma versêo visual em HTML do mesmo plano, com diagramas gerados para:
    - arquitetura;
    - cada fase do projeto.
 
-Assuma que você encontrará barreiras, não importa o quão inteligente você pense que é. Planeje essas barreiras antes de escrever uma única linha de código.
+Assuma que você encontrará barreiras, nêo importa o quêo inteligente você pense que é. Planeje essas barreiras antes de escrever uma única linha de código.
